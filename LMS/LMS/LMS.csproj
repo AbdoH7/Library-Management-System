@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36810A4B-F4B0-4713-B4DE-0ACFFD1A6D5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LMS</RootNamespace>
+    <AssemblyName>LMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AddBook.Designer.cs">
+      <DependentUpon>form_AddBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AddStudent.Designer.cs">
+      <DependentUpon>form_AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AddTeacher.Designer.cs">
+      <DependentUpon>form_AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_BorrowS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_BorrowS.Designer.cs">
+      <DependentUpon>form_BorrowS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_BorrowT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_BorrowT.Designer.cs">
+      <DependentUpon>form_BorrowT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Info.Designer.cs">
+      <DependentUpon>form_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_PurchasingS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_PurchasingS.Designer.cs">
+      <DependentUpon>form_PurchasingS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_PurchasingT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_PurchasingT.Designer.cs">
+      <DependentUpon>form_PurchasingT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Return.Designer.cs">
+      <DependentUpon>form_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ViewBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ViewBooks.Designer.cs">
+      <DependentUpon>form_ViewBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ViewStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ViewStudents.Designer.cs">
+      <DependentUpon>form_ViewStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ViewTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ViewTeachers.Designer.cs">
+      <DependentUpon>form_ViewTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Wallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Wallet.Designer.cs">
+      <DependentUpon>form_Wallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_in.Designer.cs">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_AddBook.resx">
+      <DependentUpon>form_AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_AddStudent.resx">
+      <DependentUpon>form_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_AddTeacher.resx">
+      <DependentUpon>form_AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_BorrowS.resx">
+      <DependentUpon>form_BorrowS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_BorrowT.resx">
+      <DependentUpon>form_BorrowT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Info.resx">
+      <DependentUpon>form_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_PurchasingS.resx">
+      <DependentUpon>form_PurchasingS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_PurchasingT.resx">
+      <DependentUpon>form_PurchasingT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Return.resx">
+      <DependentUpon>form_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ViewBooks.resx">
+      <DependentUpon>form_ViewBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ViewStudents.resx">
+      <DependentUpon>form_ViewStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ViewTeachers.resx">
+      <DependentUpon>form_ViewTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Wallet.resx">
+      <DependentUpon>form_Wallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sign_in.resx">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallet-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LMS.Book" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAUAQUAAAERECAAEAAwAQAAEAECFAQAAhQAgAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_AddBook" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAAAAQAASAAAJSAAADAAQBCIAAAgAgAMAAAAQABAII=</HashCode>
+      <FileName>form_AddBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_AddStudent" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAACAAQFCIAAAgAgAkAAAAAABAAA=</HashCode>
+      <FileName>form_AddStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_AddTeacher" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAACAAQFCIAABAAgAkAAAAAAABAA=</HashCode>
+      <FileName>form_AddTeacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_BorrowS" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAADAAQACAAAAgAgAMAAAAAABAAA=</HashCode>
+      <FileName>form_BorrowS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_BorrowT" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAADAAQACAAAAgAgAMAAAAAABAAA=</HashCode>
+      <FileName>form_BorrowT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_Info" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAgAAABAAQAAABAAA=</HashCode>
+      <FileName>form_Info.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_PurchasingS" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAADAAQACAAAAgAgAMAAAAAABAAA=</HashCode>
+      <FileName>form_PurchasingS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_PurchasingT" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABQAAADAAQCCAAAAgAgAMAAAAAABAAA=</HashCode>
+      <FileName>form_PurchasingT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_Return" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAAQCAAABQAAADAAQACAAAAAAgAMAAAAAAAAAI=</HashCode>
+      <FileName>form_Return.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_ViewBooks" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAACAAABAAAACAAAACAAgAgAAIFAAAAAABAAA=</HashCode>
+      <FileName>form_ViewBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_ViewStudents" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAABAAAACAAAACAAgAgAAIFAAAAAABAAA=</HashCode>
+      <FileName>form_ViewStudents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_ViewTeachers" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAABAAAACAAAACAAgAgAAIFAAAAAABAAA=</HashCode>
+      <FileName>form_ViewTeachers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.form_Wallet" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAASAAAAgAAAEAAAAABBAAA=</HashCode>
+      <FileName>form_Wallet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.MainForm" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EPZgEACAFiSFjBBACq2EAEQCRCAAJYiIcBBBQgjxACI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Global" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAYAAAAACAAAAAAABAAAABEAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Person" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAADgAAEAQAAgAQAAAAEAAAAACAAAAAAAgA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Program" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Sign_in" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAACAAABAAAACAAAACAAAIAAAAEEAAAQBAAAA=</HashCode>
+      <FileName>Sign_in.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Student" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAEEAAAAQIAAAECAACAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Teacher" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAEEAAAAQIAAAECAACAAAAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Properties.Resources" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAEAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMS.Properties.Settings" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
